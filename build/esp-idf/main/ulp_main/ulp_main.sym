@@ -1,0 +1,10 @@
+irq_vector T 10 
+main T 2e 42
+reset_vector T 0 
+SENS A c800 
+__stack_top B 800 
+ulp_riscv_adc_read_channel T 70 ac
+ulp_riscv_halt T 13c 24
+ulp_riscv_rescue_from_monitor T 11c 14
+ulp_riscv_wakeup_main_processor T 130 c
+wakeup_result B 168 4
