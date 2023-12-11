@@ -1,0 +1,23 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "ulp_riscv_lock.h": "c",
+        "spi_flash_os.h": "c",
+        "clk_gate_ll.h": "c",
+        "touch_sensor_hal.h": "c",
+        "rtc_hal.h": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "string": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "functional": "c"
+    }
+}
